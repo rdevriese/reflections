@@ -16,3 +16,8 @@ to be able to push changes to.
 I'd use a branch when I want to make changes to the local repo that are not
 on the master branch.
 
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+It lets use compare the state of our local copy to what has been shared 
+on the remote site. Also, it lets us merge the changes from the remote site 
+into our local copy.
