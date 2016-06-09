@@ -1,0 +1,8 @@
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+The working directory is just that, the directory that contains all the files 
+currently checked out. The changes to these files may or may not be tracked by
+Git, depending on whether or not they have been added and commited to Git.
+Files in the Staging are have been marked for commitment to Git. This gives a way
+to select the specific files from the working directory that will be commited on
+the next commit command.
