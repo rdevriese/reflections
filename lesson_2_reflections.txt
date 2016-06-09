@@ -20,3 +20,8 @@ How do the diagrams help you visualize the branch structure?
 Err, they are diagrams so its I can visualize them? By drawing the commit history and branches
 in a diagram its easier to see the branch structure and to see which commits are reachable 
 from which branch. It's also easier to see where detached head checkouts are.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+The result of a merge is to combine the changes from both commits into a new 
+commit, using a merge strategy to determine which changes get included.
