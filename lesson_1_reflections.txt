@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing the files in diff removes the majority of the content that has not changed and only
+shows the content that has changed. It shows a little bit of content to establish context,
+and then shows the lines that have been removed from the first file--proceded by a - sign, and lines that have been added to the second file--proceeded by a + sign.
+
+How could having easy access to the entire history of a file make you a more efficient
+programmer in the long run:
+Having access to the entire history of a file makes it easy to recover from mistakes. If I find
+out I've completely hosed the file I can always just revert back to a prior version and restart
+from there. It can also make me more willing to experiment because I know I can always restart
+from a prior copy if I totally mess up. Branching and Merging facilities also help in this
+regard, although these guys have not talked about them yet.
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+Pros: 
+1. Enables us to do 'logical' commits.
+2. Lets us control the size of the commit
+3. Lets us assign a good commit message to the commit
+
+Cons:
+1. Can forget to commit a logical sized change. We end up commiting too many changes at once
+2. We can forget to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat each file separately?
+Git was design primarily for version control of source code files. Most programming languages divide programs up into multiple related source code files. Also, a logical commit will
+quite easily involve multiple related files. For example, if we introduce a new feature into a 
+program it very easily will require changes in multiple files. In order to commit that feature 
+the related files all have to be commited at the same time.
+
+How do you use the commands git log and git diff to view the history of files?
+Git log lists the changes to a repository in chronological order. By itself it lists the commit id, author, date, and commit message. Git Log --stat also displays the specific files that have
+changed, along with a relative indicator of the number of additions and subtractions to
+each file. Once we know what files have changed we can use Git diff to see what the actual
+changes were in each file. Lines that have been removed from the prior commit are preceded
+by a - sign. Lines that have been added since the prior commit are preceded by a + sing.
+
+How might using version control make you more confident to make changes that could
+break something?
+If I change something that breaks something I can just revert to commit prior to where I injected the defect.
