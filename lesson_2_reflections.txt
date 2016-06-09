@@ -16,3 +16,7 @@ How would branches help?
 Branches are useful when making experimental changes that I'm not sure will work. They are also helpful when I have to make changes that will take a long time to do, such as adding in major feature content, but still having to maintain bug fixes in the main branch. They are also useful for release candidates that are going through testing, but development still needs to 
 continue on the main branch.
 
+How do the diagrams help you visualize the branch structure?
+Err, they are diagrams so its I can visualize them? By drawing the commit history and branches
+in a diagram its easier to see the branch structure and to see which commits are reachable 
+from which branch. It's also easier to see where detached head checkouts are.
