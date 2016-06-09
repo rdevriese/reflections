@@ -2,3 +2,17 @@ When would you want to use a remote repository rather than keeping all your work
 I'd want to use a remote repository for the following reasons:
 1. So I can share the project with others
 2. So I can access the project from several different machines
+
+Describe the difference between forks, clones, and branches. When would you 
+use one instead of another?
+A fork is a copy of a repository out on a repro server such as Github
+A clone is a copy of a repository on my local machine.
+A branch is a labeled commit.
+I'd use a fork if I wanted to base some new work off of an existing
+project, but did not want my commits and pushes to be part of the original 
+repo.
+I've use a clone when I wanted to work on a project in a repo that I wanted 
+to be able to push changes to.
+I'd use a branch when I want to make changes to the local repo that are not
+on the master branch.
+
