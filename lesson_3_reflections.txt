@@ -21,3 +21,8 @@ stored locally?
 It lets use compare the state of our local copy to what has been shared 
 on the remote site. Also, it lets us merge the changes from the remote site 
 into our local copy.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+There are lots of different collaboration platforms available, but Git and
+GitHub are pretty convenient to use.
